@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/button_background.xml" value="0.1625" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/button_interface.xml" value="0.1625" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/button_shape.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/click_shape.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/edge.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/ic_baseline_create_24.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/ic_baseline_directions_bike_24.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/ic_baseline_directions_bus_24.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/ic_baseline_local_dining_24.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/ic_baseline_navigation_24.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/schedule_btn.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/schedule_button.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/selector_radio_button.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/selector_radio_text.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/selector_sigungu.xml" value="0.252233676975945" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/selector_sigungu_text.xml" value="0.252233676975945" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/shcedule_btn.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/drawable/ui_background.xml" value="0.252233676975945" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_commend.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_custom_dialog.xml" value="0.13793103448275862" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_item.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_main2.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_map_info.xml" value="0.11980749746707194" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_root_manage.xml" value="0.138996138996139" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_root_recommand.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_search.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_search_result.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_spalsh.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/activity_splash.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/bottom_sheet.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/bus_layout.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/checkbox_layout.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/custom_listview.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/customdl.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/dialog_update.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/list_row.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/navi_header.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/navi_menu.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/recommend_create.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/recommend_item.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/recommendeddialog.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/layout/search_item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/menu/navi_menu.xml" value="0.18" />
+        <entry key="..\:/Users/PC/This_is_Changwon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

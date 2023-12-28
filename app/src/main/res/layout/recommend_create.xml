@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dynamic_space"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edit_reconame"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="일정의 이름을 입력하세요"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_space"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/dynamic_space"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</LinearLayout>

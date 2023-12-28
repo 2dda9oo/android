@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="vertical"
+        android:background="#87CEEB"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="'여행을 검색하세요'"
+            android:textStyle="bold"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/cafe24simplehae"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="6dp"/>
+
+        <SearchView
+            android:id="@+id/search_space"
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            app:queryHint="검색어를 입력하세요."
+            android:queryBackground="@null"
+            android:background="@drawable/schedule_button"
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sigungu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/title_layout">
+
+        <RadioGroup
+            android:id="@+id/radio_sigungu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/masan_hoiwon"
+                android:layout_width="80dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="마산회원구"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_sigungu"
+                android:button="@null"
+                android:textColor="@drawable/selector_sigungu_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/masan_happo"
+                android:layout_width="80dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="마산합포구"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_sigungu"
+                android:button="@null"
+                android:textColor="@drawable/selector_sigungu_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/seonsan"
+                android:layout_width="80dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="성산구"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_sigungu"
+                android:button="@null"
+                android:textColor="@drawable/selector_sigungu_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/uichang"
+                android:layout_width="80dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="의창구"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_sigungu"
+                android:button="@null"
+                android:textColor="@drawable/selector_sigungu_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/jinhae"
+                android:layout_width="80dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="진해구"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_sigungu"
+                android:button="@null"
+                android:textColor="@drawable/selector_sigungu_text"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/sigungu_layout"
+        tools:ignore="MissingConstraints">
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/search_spot"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="여행지"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_radio_button"
+                android:button="@null"
+                android:textColor="@drawable/selector_radio_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/search_korean"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="한식"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_radio_button"
+                android:button="@null"
+                android:textColor="@drawable/selector_radio_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/search_japanease"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="일식"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_radio_button"
+                android:button="@null"
+                android:textColor="@drawable/selector_radio_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/search_american"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="양식"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_radio_button"
+                android:button="@null"
+                android:textColor="@drawable/selector_radio_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/search_chinease"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="중식"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_radio_button"
+                android:button="@null"
+                android:textColor="@drawable/selector_radio_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/search_chicken"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="치킨"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_radio_button"
+                android:button="@null"
+                android:textColor="@drawable/selector_radio_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/search_drink"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="주점"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_radio_button"
+                android:button="@null"
+                android:textColor="@drawable/selector_radio_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/search_coffee"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="커피"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_radio_button"
+                android:button="@null"
+                android:textColor="@drawable/selector_radio_text"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/search_bread"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="기타"
+                android:fontFamily="@font/cafe24simplehae"
+                android:background="@drawable/selector_radio_button"
+                android:button="@null"
+                android:textColor="@drawable/selector_radio_text"/>
+
+        </RadioGroup>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/btn_layout">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/search_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_layout"/>
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
