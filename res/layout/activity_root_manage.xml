@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rootManage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/create_db"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#A0EEFE">
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="일정 관리"
+                android:textSize="33dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/gmarketbold"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/ui_background"
+            android:orientation="vertical"
+            android:id="@+id/create_schedule">
+
+            <TextView
+                android:id="@+id/work_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="새 일정 생성"
+                android:textColor="@color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/schedule_name"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="일정 이름"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/name_write"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5"
+                    android:hint="일정의 이름을 입력하세요"
+                    android:textSize="12sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_below="@+id/work_title"/>
+
+                <android.widget.Button
+                    android:id="@+id/name_add"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.2"
+                    android:layout_marginRight="10dp"
+                    android:text="추가하기"
+                    android:background="@drawable/button_shape"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_schedule"
+            android:layout_marginTop="30dp"
+            android:background="#A0EEFE"
+            android:id="@+id/dynamic_btn">
+
+            <LinearLayout
+                android:id="@+id/name_plate"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#A0EEFE"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="생성된 일정"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:gravity="center_horizontal"
+                    android:background="#A0EEFE"/>
+
+                <android.widget.Button
+                    android:id="@+id/name_reset"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ui_background"
+                    android:text="리셋하기" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:paddingTop="30dp"
+                android:background="@drawable/ui_background"
+                android:layout_below="@+id/name_plate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbarFadeDuration="0"
+                android:scrollbarSize="5dp"
+                android:scrollbarThumbVertical="@android:color/darker_gray"
+                android:scrollbars="vertical"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

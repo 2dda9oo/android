@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/search_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/result_name"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="상권 이름"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/result_rating"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:id="@+id/result_sclsMn"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="상권 분류"
+                    android:textSize="12dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/result_addr"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="상권 주소"
+                android:textSize="13dp" />
+            <TextView
+                android:id="@+id/result_ksicNm"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="상권 세부정보"
+                android:textSize="13dp" />
+            <TextView
+                android:id="@+id/result_info"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="상권 설명"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

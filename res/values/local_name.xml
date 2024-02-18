@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="local_name">
+        <item>지역구</item>
+        <item>성산구</item>
+        <item>의창구</item>
+        <item>마산회원구</item>
+        <item>마산합포구</item>
+        <item>진해구</item>
+    </string-array>
+</resources>
